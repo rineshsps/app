@@ -10,6 +10,8 @@ namespace apps
     {
         public Linq()
         {
+            Console.WriteLine("------- Linq -----------");
+
             decimal[] numbers = { 101, 110, 55, 32, 300, 20 };
 
             //selecting number > 100

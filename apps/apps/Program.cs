@@ -12,22 +12,8 @@ namespace apps
         {
              
             Linq ln = new Linq();
-
-            string texts = "AB01-";
-            char[] text = texts.ToArray();
-            foreach (char item in text)
-            {
-                bool isNumber = char.IsNumber(item);
-                var isLetter = char.IsLetter(item);
-                if (isNumber)
-                {
-                    Console.WriteLine("num");
-                }
-                else if (isLetter)
-                    Console.WriteLine("letter");
-                else
-                    Console.WriteLine(item.GetType());
-            }
+            Charater c = new Charater();
+            
         }
     }
 }
