@@ -22,8 +22,7 @@ namespace apps
                             .Select(x => x);
 
             //order by desc
-            result = numbers
-                            .OrderByDescending(x => x);
+            result = numbers.OrderByDescending(x => x);
         }
 
     }
